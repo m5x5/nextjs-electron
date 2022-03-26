@@ -1,11 +1,8 @@
-![image](https://user-images.githubusercontent.com/30301026/136669993-0219904e-c967-4b4f-8903-df43fb35f44b.png)
+## Next.js + Electron Template
 
-<img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+This template contains a copy of nextron. I adjusted it as there were a couple of things that made it unstable. This project is a template and not a replacement for Nextron. You should definitely check nextron out as it's a good way to avoid having the type of configurations in the file tree like this project has it.
 
----
-
-Welcome to Discord Bot Creator, a free open source discord bot creator which is much more powerful than the alternatives. Currently, it's still in development but you can check out the early version using the commands below. Also feel free to join us on [Discord](https://discord.gg/Z7ybzt2KRr).
-
+Additionally this project brings Typescript and React Stitches together with Electron, which can definitely save you a lot of time.
 
 ## Prerequisites
 
@@ -14,20 +11,17 @@ Welcome to Discord Bot Creator, a free open source discord bot creator which is 
 
 ## Usage
 
-### Get started
-
-#### Install the build
-
-- Click on "Releases"
-- Download the zip file
-- Unzip
-- Click on "Discord Bot Creator Setup.exe"
-
-#### Build it on your own
+### Run the project
 
 ```
-$ git clone git@github.com:Michael55555/discord-bot-creator.git
-$ cd discord-bot-creator
+$ git clone git@github.com:Michael55555/next.js-electron.git
+$ cd next.js-electron
 $ npm install
 $ npm run dev
+```
+
+### Build the project
+
+```
+$ npm run build
 ```
