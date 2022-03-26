@@ -9,6 +9,12 @@ const Container = styled('div', {
   placeItems: 'center',
 });
 
+const Title = styled('h1', {
+  fontSize: '$4',
+  color: '$white',
+  fontWeight: '500',
+});
+
 export default function Dashboard() {
   return (
     <>
@@ -16,7 +22,7 @@ export default function Dashboard() {
         <title>Bot Selection - DBC</title>
       </Head>
       <Container>
-        <Section />
+        <Title>Welcome to the Template!</Title>
       </Container>
     </>
   );
