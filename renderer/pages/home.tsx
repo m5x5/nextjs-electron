@@ -19,7 +19,7 @@ export default function Dashboard() {
   return (
     <>
       <Head>
-        <title>Bot Selection - DBC</title>
+        <title>Home</title>
       </Head>
       <Container>
         <Title>Welcome to the Template!</Title>
